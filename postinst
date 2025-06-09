@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# Copy media files
+cp /Library/MobileSubstrate/DynamicLibraries/horror.jpg /var/mobile/horror.jpg
+cp /Library/MobileSubstrate/DynamicLibraries/horror.mp3 /var/mobile/horror.mp3
+chown mobile:mobile /var/mobile/horror.*
+chmod 644 /var/mobile/horror.*
+
+# Install specter CLI
+cp /Library/MobileSubstrate/DynamicLibraries/specter.sh /var/jb/usr/bin/specter
+chmod 755 /var/jb/usr/bin/specter
