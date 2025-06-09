@@ -1,0 +1,9 @@
+Package: com.zodacios.specter
+Name: Specter
+Version: 1.0
+Architecture: iphoneos-arm64
+Description: A harmless horror prank tweak. Triggered by typing 'specter' in Terminal. Opens Safari to your site after prank.
+Maintainer: ZodaciOS
+Author: ZodaciOS
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0)
